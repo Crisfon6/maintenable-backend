@@ -1,0 +1,15 @@
+<h2>
+    {{title}}</h2>
+<a mat-raised-button (click)="delete()" *ngIf="allowDelete">Eliminar</a>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input type="text" matInput formControlName="name">
+    </mat-form-field>
+    <button type="submit" mat-raised-button color="primary" [disabled]="!form.valid">Registrar</button>
+</form>
+<!-- <mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let item of contractors">{{item.name}}</mat-list-item>
+
+</mat-list> -->

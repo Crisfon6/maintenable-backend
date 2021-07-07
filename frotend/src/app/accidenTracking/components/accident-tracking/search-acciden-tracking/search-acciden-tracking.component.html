@@ -1,0 +1,60 @@
+<h1>
+    {{ title }}</h1>
+<a mat-raised-button [routerLink]="['crear']">Crear</a>
+<!-- <router-outlet></router-outlet> -->
+<!-- ['Fecha de registro',"Compañia involucrada","Contratista","Area","Tipo de lesion"]; -->
+<!-- <mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input [(ngModel)]="filter" />
+</mat-form-field> -->
+<a mat-raised-button (click)="download()">Descargar</a>
+
+<table mat-table [dataSource]="data" class="mat-elevation-z8" *ngIf="!isLoading">
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+    <!-- Checkbox Column -->
+    <ng-container matColumnDef="Seleccionar">
+        <th mat-header-cell *matHeaderCellDef>
+            <mat-checkbox (change)="$event ? masterToggle() : null" [checked]="selection.hasValue() && isAllSelected()" [indeterminate]="selection.hasValue() && !isAllSelected()" [aria-label]="checkboxLabel()">
+            </mat-checkbox>
+        </th>
+        <td mat-cell *matCellDef="let row">
+            <mat-checkbox (click)="$event.stopPropagation()" (change)="$event ? selection.toggle(row) : null" [checked]="selection.isSelected(row)" [aria-label]="checkboxLabel(row)">
+            </mat-checkbox>
+        </td>
+    </ng-container>
+
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="Fecha de registro">
+        <th mat-header-cell *matHeaderCellDef>Fecha de registro</th>
+        <td mat-cell *matCellDef="let element">{{ element.dataRegistration }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Contratista">
+        <th mat-header-cell *matHeaderCellDef>Contratista</th>
+        <td mat-cell *matCellDef="let element">{{ element.contractor.name }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Compañia involucrada">
+        <th mat-header-cell *matHeaderCellDef>Compañia involucrada</th>
+        <td mat-cell *matCellDef="let element">{{ element.companyInvolved.name }}</td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="Area">
+        <th mat-header-cell *matHeaderCellDef>Area</th>
+        <td mat-cell *matCellDef="let element">{{ element.area.name }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="Tipo de lesion">
+        <th mat-header-cell *matHeaderCellDef>Tipo de lesion</th>
+        <td mat-cell *matCellDef="let element">{{ element.injuredType.name }}</td>
+    </ng-container>
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+
+    <tr mat-row (click)="clickRow(row)" *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+<mat-paginator [pageSize]="pageSize" showFirstLastButtons [length]="totalPages"></mat-paginator>

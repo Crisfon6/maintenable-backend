@@ -1,0 +1,90 @@
+{{title}}
+
+<mat-card>
+
+    <form [formGroup]="form" *ngIf='!loading'>
+        <mat-form-field appearance="fill">
+            <mat-label>Supervisor</mat-label>
+            <mat-select formControlName="supervisor">
+                <mat-option *ngFor="let item of dataForm.supervisor" value="{{ item._id }}">{{ item.name }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Empresa observada</mat-label>
+            <mat-select formControlName="companyObserved">
+                <mat-option *ngFor="let item of dataForm.companyObserved" value="{{ item._id }}">{{ item.name }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Contratista</mat-label>
+            <mat-select formControlName="contractor">
+                <mat-option *ngFor="let item of dataForm.contractor" value="{{ item._id }}">{{ item.name }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Area</mat-label>
+            <mat-select formControlName="area">
+                <mat-option *ngFor="let item of dataForm.area" value="{{ item._id }}">{{ item.name }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Observacion</mat-label>
+            <textarea matInput formControlName="observation"></textarea>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Potencial</mat-label>
+            <mat-select formControlName="potential">
+                <mat-option *ngFor="let item of dataForm.potential" value="{{ item._id }}">{{ item.name }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Actividad involucrada</mat-label>
+            <mat-select formControlName="activityInvolved">
+                <mat-option *ngFor="let item of dataForm.activityInvolved" value="{{ item._id }}">{{ item.name }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Ciudad</mat-label>
+            <mat-select formControlName="city">
+                <mat-option *ngFor="let item of dataForm.city" value="{{ item._id }}">{{ item.name }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Fecha de cierre</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="closingDate" />
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Registro Fotografico</mat-card-title>
+            </mat-card-header>
+            <mat-card-actions>
+                <div *ngIf="edit">
+                    <img mat-card-image [attr.src]="dataActual.photoUnsafeCondition">
+                </div>
+
+
+                <input placeholder="Placeholder" type="file" (change)="fileSeleted($event)" accept=".jpg,.jpeg,.png">
+            </mat-card-actions>
+        </mat-card>
+        <mat-form-field appearance="fill">
+            <mat-label>Estado</mat-label>
+
+            <mat-select formControlName="status">
+                <mat-option value="ABIERTO">Abierto</mat-option>
+                <mat-option value="CERRADO">Cerrado</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Observaciones (Comentarios)</mat-label>
+            <textarea matInput formControlName="observations"></textarea>
+        </mat-form-field>
+        <br>
+        <button mat-flat-button color="primary" type="submit" [disabled]="!form.valid" (click)="OnSubmit()">
+        Guardar
+      </button>
+    </form>
+</mat-card>

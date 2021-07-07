@@ -1,0 +1,117 @@
+<h2>{{ title }}</h2>
+<a mat-raised-button (click)="delete()" *ngIf="allowDelete">Eliminar</a>
+<!-- <a mat-raised-button (click)="download()" *ngIf="allowDelete">Descargar</a> -->
+<div class="spinner-container" *ngIf="loading">
+    <mat-spinner></mat-spinner>
+</div>
+<form class="example-form" [formGroup]="accidentTrackingForm" *ngIf="!loading">
+    <mat-form-field appearance="fill">
+        <mat-label>Fecha del reporte de seguimiento</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="date" />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Contratista</mat-label>
+        <mat-select formControlName="contractor">
+            <mat-option *ngFor="let item of data.contractors" value="{{ item._id }}">{{ item.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Empresa Involucrada</mat-label>
+        <mat-select formControlName="companyInvolved" placeholder="Empresa involucrada">
+
+            <mat-option value="jose">Andres</mat-option>
+
+            <mat-option *ngFor="let item of data.companyInvolveds" value="{{ item._id }}">{{ item.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Area</mat-label>
+        <mat-select formControlName="area">
+            <mat-option *ngFor="let item of data.areas" value="{{ item._id }}">{{ item.name }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Descripcion</mat-label>
+        <textarea matInput formControlName="description"></textarea>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Actividad involucrada</mat-label>
+        <mat-select formControlName="activityInvolved">
+            <mat-option *ngFor="let item of data.activityInvolveds" value="{{ item._id }}">{{ item.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Clasificacion</mat-label>
+        <mat-select formControlName="classification">
+            <mat-option *ngFor="let item of data.classifications" value="{{ item._id }}">{{ item.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Parte del cuerpo involucrada</mat-label>
+        <mat-select formControlName="injuredBodyPart">
+            <mat-option *ngFor="let item of data.injuredBodyParts" value="{{ item._id }}">{{ item.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Tipo de lesion/daño</mat-label>
+        <mat-select formControlName="injuredType">
+            <mat-option *ngFor="let item of data.injuredTypes" value="{{ item._id }}">{{ item.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <!-- <button mat-flat>Hola</button>
+    <button mat-raised-button disabled="maxActionPlan">Basic</button> -->
+    <div formArrayName="actionPlanArray">
+        <h3>Plan de accion</h3>
+
+        <button mat-flat-button color="primary" (click)="addActionPlan()">
+          Agregar plan de accion
+        </button>
+        <div *ngFor="let item of actionPlanArray.controls; let i = index">
+            <div [formGroup]="groupActionPlan(i)" *ngIf="!loading">
+                <mat-form-field appearance="fill">
+                    <mat-label>Plan de accion</mat-label>
+                    <mat-select formControlName="actionPlan">
+                        <mat-option *ngFor="let item of data.typeActionPlans" value="{{ item._id }}">{{ item.name }}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Fecha</mat-label>
+
+                    <input matInput [matDatepicker]="picker" formControlName="dateCompliance" />
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+                <button mat-fab color="warn" (click)="removeActionPlan(i)">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Evidencia .pdf</mat-card-title>
+        </mat-card-header>
+        <mat-card-actions>
+
+            <div *ngIf="edit">
+                <a mat-raised-button [attr.href]="user.pdf" target="_blank">Evidencia</a>
+            </div>
+            <input placeholder="Placeholder" type="file" (change)="fileSeleted($event)" accept=".pdf">
+        </mat-card-actions>
+    </mat-card>
+    <button mat-flat-button color="primary" type="submit" [disabled]="!accidentTrackingForm.valid" (click)="OnSubmit()">
+    Guardar
+  </button>
+</form>

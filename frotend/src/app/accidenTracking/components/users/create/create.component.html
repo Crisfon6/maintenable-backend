@@ -1,0 +1,28 @@
+<h2>
+    {{title}}</h2>
+<a mat-raised-button (click)="delete()" *ngIf="allowDelete">Eliminar</a>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+        <mat-label>username</mat-label>
+        <input type="text" matInput formControlName="username">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input type="text" matInput formControlName="password">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>
+            Rol
+        </mat-label>
+        <mat-select formControlName="role">
+            <mat-option value="ADMIN">Administrador</mat-option>
+            <mat-option value="NORMAL">Normal</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+
+    <button type="submit" mat-raised-button color="primary" [disabled]="!form.valid">Registrar</button>
+</form>
+<mat-list role="list">
+
+</mat-list>

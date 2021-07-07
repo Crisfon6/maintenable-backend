@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 400px;
+}
+
+.welcome-img {
+    background-image: url('../../assets/img/20200807_091923.jpg');
+    object-fit: scale-down;
+}
+
+.card-login {
+    padding: 20px;
+}
