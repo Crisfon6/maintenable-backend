@@ -1,4 +1,6 @@
 /backend/node_modules
+/backend/.env
+/backend/dist/.env
 /frontend/node_modules
 /test/
 /hse-frontend/node_modules
