@@ -1,0 +1,443 @@
+[{
+  "_id": {
+    "$oid": "60d26c1ae403f837bc207077"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.945Z"
+  },
+  "name": "FLARE",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b00"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "VIAL SUR"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b01"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ACUMULADOR"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b02"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "WS2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b03"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "AM2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b04"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RACK EO3"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b05"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RACK DE AGUA"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b06"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CAF"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b07"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CWC"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b08"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "FWS"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b09"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RACK NS1"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b0a"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RCA"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b0b"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "HTN"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b0c"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "HTD"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b0d"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RACK EO2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b0e"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RACK NS3"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b0f"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SWO"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b10"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RACK NS2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b11"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "WSA"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b12"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GE1"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b13"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SWC"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b14"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TGL"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b15"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SLP: Tanques Slops"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b16"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ÁREA DE TANQUES"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b17"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SGV"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b18"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RCO"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b19"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "STA"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b1a"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "FB2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b1b"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "WWS"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b1c"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SWI"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b1d"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SEP+SE+SO+RIE"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b1e"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ASC"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b1f"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RACK EO1"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b20"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "DP1"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b21"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TC17 - TC18"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b22"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "DV3"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b23"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "HTF"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b24"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "OR2 / DM2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b25"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "NIS"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b26"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "FCC"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b27"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "MUELLE 1"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b28"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "MUELLE 2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b29"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "FCK"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b2a"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "G2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b2b"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GE"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b2c"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "PHP"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b2d"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "RG2"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b2e"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TKT"
+},{
+  "_id": {
+    "$oid": "60d26ce1f2c31c46ac354b2f"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "OX"
+}]

@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "60d26d0bbd2d270618b93224"
+  },
+  "state": true,
+  "name": "ALTO",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d26de131ef6441e8353468"
+  },
+  "state": true,
+  "name": "MEDIO",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d26de531ef6441e8353469"
+  },
+  "state": true,
+  "name": "BAJO",
+  "__v": 0
+}]

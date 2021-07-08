@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "60d2798f307d0105c8f8cbdb"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T23:56:18.298Z"
+  },
+  "name": "PETROPERÚ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d27994307d0105c8f8cbdc"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T23:56:18.298Z"
+  },
+  "name": "CPT",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2799a307d0105c8f8cbdd"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T23:56:18.298Z"
+  },
+  "name": "TRT",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2799f307d0105c8f8cbde"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T23:56:18.298Z"
+  },
+  "name": "COBRA",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d279a3307d0105c8f8cbdf"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T23:56:18.298Z"
+  },
+  "name": "CTM",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d279a8307d0105c8f8cbe0"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T23:56:18.298Z"
+  },
+  "name": "TECNOMINDATA",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d279ad307d0105c8f8cbe1"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T23:56:18.298Z"
+  },
+  "name": "DEMEM",
+  "__v": 0
+}]

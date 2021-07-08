@@ -1,0 +1,299 @@
+[{
+  "_id": {
+    "$oid": "60d26ae3e403f837bc207076"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Trabajos con Tuneladora",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae0"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Trabajos de Radiografiado y END"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae1"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Izaje mecánico de cargas, incluye izaje de personas"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae2"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Pruebas de lazo, pruebas hipot e instalación de tableros eléctricos"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae3"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Trabajos de Alivios Térmicos"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae4"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Instalación de Instrumentación"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae5"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Alineación y nivelación de equipos rotativos"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae6"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Pilotaje"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae7"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Aislamiento Termico"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae8"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Bombeo de agua o napa freática desde zanja"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354ae9"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Operación de equipo pesado (motoniveladora, bulldozer)"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354aea"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Compactación Mecánica y Compactación manual-mecánica (canguro)"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354aeb"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Transporte de materiales, equipos y condición de vehículos"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354aec"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Levantamiento topográfico"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354aed"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Preservación de equipos"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354aee"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Trabajos en espacio confinado"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354aef"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Pruebas hidrostáticas / neumáticas y limpieza de tubería"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af0"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Trabajos eléctricos con lineas vivas, cableado y conexionado"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af1"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Excavación mecánica y manual"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af2"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Montaje de estructuras y torqueo"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af3"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Arenado y Pintura"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af4"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Trabajo en alturas"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af5"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Montaje y desmontaje de andamios"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af6"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Obra civil (Incluye encofrado, desencofrado, amarre de hierro, vaciado de concreto, etc)"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af7"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Trabajos en caliente (incluye alineación y soldadura de tubería)"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af8"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Soplado de lineas con vapor"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354af9"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Pruebas de hermeticidad"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354afa"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Bloqueo y tarjeteo"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354afb"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Precomisionamiento"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354afc"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Comisionamiento"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354afd"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Puesta en marcha"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354afe"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Limpiza quimica"
+},{
+  "_id": {
+    "$oid": "60d26b7ff2c31c46ac354aff"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "Otras"
+}]

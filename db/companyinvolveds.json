@@ -1,0 +1,785 @@
+[{
+  "_id": {
+    "$oid": "60d27b5951491d157078986d"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-23T00:01:34.886Z"
+  },
+  "name": "TRT",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b87"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "A&N"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b88"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CSP-JJC-SC"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b89"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "DEMEM"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b8a"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "DOMINION"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b8b"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "EP COSFYM"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b8c"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GEOPERFORACIONES"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b8d"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GYM"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b8e"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "JJC-CSP"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b8f"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "JULIO CRESPO"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b90"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "JUVIER"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b91"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "METRIC"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b92"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "MONSA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b93"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "MOPSA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b94"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SAN JOSE"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b95"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SECIN"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b96"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SOAVAL"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b97"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SSK"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b98"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "STORK-TMI"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b99"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TMI"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b9a"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "UPLC"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b9b"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GRAN CIUDAD"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b9c"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CIME"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b9d"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ESMETAL"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b9e"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "FELECIN"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354b9f"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "FIMA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba0"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "JASON"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba1"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "MAGU"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba2"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "MOST"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba3"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "NOVA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba4"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "PORTILLO"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba5"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "QPM"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba6"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SOLETANCHE BACHY"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba7"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TAMOIN"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba8"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "VILOCRUZ"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354ba9"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CONSORCIO FARO"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354baa"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "COBRA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bab"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "BALZOLA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bac"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GyM - TERRATEST"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bad"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "STING"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bae"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GERDIPAC INDUSTRIAL"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354baf"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TERMOSOLDEX"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb0"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ABENGOA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb1"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SERMAG"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb2"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ARIZA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb3"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TECNOR"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb4"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GUVI"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb5"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "PERFORACIONES HISPANO ANDINAS"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb6"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "LOINTEK"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb7"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "HISPÁNICA DE CALDERERÍA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb8"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ARENADOS NAVARRO"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bb9"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "COSAPI"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bba"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CONSORCIO JPOT"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bbb"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "INESCO"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bbc"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "WESTFIRE SUDAMÉRICA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bbd"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CALSOL PERÚ"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bbe"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CONSORCIO TRANSMANTARO"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bbf"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TERRATEST"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc0"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "FRP"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc1"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CONSORCIO TALARA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc2"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "MINGA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc3"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "JJM MECCEL"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc4"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "KAEFER COSTEC"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc5"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GLK"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc6"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "FIRE SECURITY SISTEM"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc7"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "REALCO"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc8"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TECNOMIDATA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bc9"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "COPRISERG"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bca"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "EMIN"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bcb"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TPG"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bcc"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ENGIE"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bcd"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ANDROMEDA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bce"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "TPG"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bcf"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "SAEG"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd0"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ISA"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd1"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CONSORCIO ENGINEERING G&RT"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd2"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ICEMIN"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd3"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CONSORCIO PMRT"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd4"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "JC CONTRATISTAS GENERALES"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd5"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "PCM"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd6"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "P.G PROYECTISTAS"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd7"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "GT CONSTRUCTORES Y CONSULTORES"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd8"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "CONDUTO"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bd9"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "INGELMEC"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bda"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "INBERSAC"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bdb"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "LUBRIQUE"
+},{
+  "_id": {
+    "$oid": "60d27b66f2c31c46ac354bdc"
+  },
+  "state": true,
+  "dataRegistration": {
+    "$date": "2021-06-22T22:35:11.970Z"
+  },
+  "name": "ABRAXAS"
+}]
