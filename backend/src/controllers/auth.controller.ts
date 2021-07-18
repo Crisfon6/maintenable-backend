@@ -19,7 +19,8 @@ export class AuthController implements IController {
   };
   login = async (req: Request, res: Response) => {
     const { username, password } = req.body;
-
+    const users = await User.find();
+    console.log('USERS:',users);
     const user = await User.findOne({ username });
 
     if (!user) return res.status(401).send({ msg: "Credenciales erroneas" });

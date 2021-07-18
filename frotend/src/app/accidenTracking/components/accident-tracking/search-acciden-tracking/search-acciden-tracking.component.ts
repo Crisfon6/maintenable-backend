@@ -37,7 +37,7 @@ export class SearchAccidenTrackingComponent  {
    totalPages = 0;
    title = 'Seguimiento de Accidentes';
    ngOnInit(): void {}
-   displayedColumns: string[] =  ["Seleccionar",'Fecha de registro',"Compañia involucrada","Contratista","Area","Tipo de lesion"];;
+   displayedColumns: string[] =  ["Seleccionar",'Fecha de registro',"Compañia involucrada","Contratista","Area","Tipo de lesion"];
  
    applyFilter(event: Event) {
      this.accidentService.get(this.filter).subscribe((data:any) => {

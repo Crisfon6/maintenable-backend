@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "60d27dcb9b1edd26f0b4c57a"
+  },
+  "state": true,
+  "supervisor": {
+    "$oid": "60d27d789b1edd26f0b4c578"
+  },
+  "companyObserved": {
+    "$oid": "60d27b66f2c31c46ac354b87"
+  },
+  "contractor": {
+    "$oid": "60d27994307d0105c8f8cbdc"
+  },
+  "area": {
+    "$oid": "60d26ce1f2c31c46ac354b00"
+  },
+  "observation": "dasd",
+  "potential": {
+    "$oid": "60d26de131ef6441e8353468"
+  },
+  "activityInvolved": {
+    "$oid": "60d26b7ff2c31c46ac354ae0"
+  },
+  "city": {
+    "$oid": "60d27db49b1edd26f0b4c579"
+  },
+  "closingDate": "2021-06-16T05:00:00.000Z",
+  "observations": "sasa",
+  "status": "ABIERTO",
+  "__v": 0,
+  "photoUnsafeCondition": "http://localhost:8080/api/uploads/img/1624407499.jpg"
+},{
+  "_id": {
+    "$oid": "60d27dcd9b1edd26f0b4c57b"
+  },
+  "state": true,
+  "supervisor": {
+    "$oid": "60d27d789b1edd26f0b4c578"
+  },
+  "companyObserved": {
+    "$oid": "60d27b66f2c31c46ac354b87"
+  },
+  "contractor": {
+    "$oid": "60d27994307d0105c8f8cbdc"
+  },
+  "area": {
+    "$oid": "60d26ce1f2c31c46ac354b00"
+  },
+  "observation": "dasd",
+  "potential": {
+    "$oid": "60d26de131ef6441e8353468"
+  },
+  "activityInvolved": {
+    "$oid": "60d26b7ff2c31c46ac354ae0"
+  },
+  "city": {
+    "$oid": "60d27db49b1edd26f0b4c579"
+  },
+  "closingDate": "2021-06-16T05:00:00.000Z",
+  "observations": "sasa",
+  "status": "ABIERTO",
+  "__v": 0,
+  "photoUnsafeCondition": "http://localhost:8080/api/uploads/img/1624407501.jpg"
+},{
+  "_id": {
+    "$oid": "60d3fb22ca1d212e0cf7d0f1"
+  },
+  "state": true,
+  "supervisor": {
+    "$oid": "60d27d789b1edd26f0b4c578"
+  },
+  "companyObserved": {
+    "$oid": "60d27b66f2c31c46ac354b89"
+  },
+  "contractor": {
+    "$oid": "60d2799f307d0105c8f8cbde"
+  },
+  "area": {
+    "$oid": "60d26ce1f2c31c46ac354b02"
+  },
+  "observation": "nuevo",
+  "potential": {
+    "$oid": "60d26de531ef6441e8353469"
+  },
+  "activityInvolved": {
+    "$oid": "60d26b7ff2c31c46ac354ae1"
+  },
+  "city": {
+    "$oid": "60d27db49b1edd26f0b4c579"
+  },
+  "closingDate": "2021-06-24T05:00:00.000Z",
+  "observations": "observacion",
+  "status": "CERRADO",
+  "__v": 0,
+  "photoUnsafeCondition": "http://localhost:8080/api/uploads/img/1624505122.jpg"
+},{
+  "_id": {
+    "$oid": "60d3fc38ca1d212e0cf7d0f3"
+  },
+  "state": true,
+  "supervisor": {
+    "$oid": "60d27d789b1edd26f0b4c578"
+  },
+  "companyObserved": {
+    "$oid": "60d27b66f2c31c46ac354b91"
+  },
+  "contractor": {
+    "$oid": "60d2799a307d0105c8f8cbdd"
+  },
+  "area": {
+    "$oid": "60d26ce1f2c31c46ac354b03"
+  },
+  "observation": "obsers",
+  "potential": {
+    "$oid": "60d26de131ef6441e8353468"
+  },
+  "activityInvolved": {
+    "$oid": "60d26b7ff2c31c46ac354ae7"
+  },
+  "city": {
+    "$oid": "60d3fc13ca1d212e0cf7d0f2"
+  },
+  "closingDate": "2021-06-24T05:00:00.000Z",
+  "observations": "",
+  "status": "CERRADO",
+  "__v": 0,
+  "photoUnsafeCondition": "http://localhost:8080/api/uploads/img/1624505400.jpg"
+}]

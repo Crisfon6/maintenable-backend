@@ -14,7 +14,7 @@ export class UserController implements IController {
   }
   initRoutes = () => {
     this.router
-      .all(this.path, authMiddleware)
+      .all(this.path, )//authMiddleware
       .get(this.path+'/id/:id', this.getById)
       .get(this.path, this.getUsers)
       .put(this.path+'/update/:id',this.update)

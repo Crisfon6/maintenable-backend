@@ -23,7 +23,7 @@ export class Server {
   }
   connectDB = async () => {
     const uriDB = process.env.MONGO_URI || "";
-
+console.log(uriDB)
     await connect(
       uriDB,
       {
