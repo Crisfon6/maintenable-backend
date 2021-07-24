@@ -18,8 +18,10 @@ export default class Server{
         this.app.use(express.static("public"));
     }
     private router = (routes:IRoute[])=>{
+        
     routes.forEach((route:IRoute)=>{
-        this.app.use(route.path,route.router)
+        
+        this.app.use(`/api${route.path}`,route.router)
     });
     }
     public listen = ()=>{

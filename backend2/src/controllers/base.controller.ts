@@ -2,17 +2,33 @@ import { IBaseController } from "../interfaces/controller.interface";
 import { IBaseService } from "../interfaces/service.interface";
 import { Request, Response } from "express";
 import { regexQuery } from "../helpers/regex-query";
+
+
+/*
+req.body.query is a element with all places i want search example:
+  [{name:'crisfon6},{password:'solve'}]
+populatedField: string[]
+.populate("investment","tags")
+*/
 export class BaseController implements IBaseController {
   service;
   constructor(Service: any) {
     this.service = new Service() as IBaseService;
+    this.create = this.create.bind(this);
+    this.update = this.update.bind(this);
+    this.getAll = this.getAll.bind(this);
+    this.getAllRegex = this.getAllRegex.bind(this);
+    this.getOneRegex = this.getOneRegex.bind(this);
+    this.getOne = this.getOne.bind(this);
+    this.disableEnable = this.disableEnable.bind(this);
+    this.remove = this.remove.bind(this);
   }
-  create(req: Request, res: Response, findCriteria: any = {}) {
+  async create(req: Request, res: Response, findCriteria: any = {}) {
     try {
-      const result = this.service.create(req.body, findCriteria);
+      const result = await  this.service.create(req.body,findCriteria);      
       return res.status(200).send(result);
-    } catch (error: any) {
-      return res.status(error.status || 500).send({ msg: error.error.message });
+    } catch (error: any) {            
+        return res.status(error.status | 500).send({message:error.error.message || 'Bad Request'});
     }
   }
   update(req: Request, res: Response): any {
@@ -20,7 +36,7 @@ export class BaseController implements IBaseController {
       const result = this.service.update(req.params.id, req.body);
       return res.status(200).send(result);
     } catch (error: any) {
-      return res.status(error.status || 500).send(error.error.message);
+      return  res.status(error.status || 500).send(error.error.message);
     }
   }
 
@@ -32,12 +48,14 @@ export class BaseController implements IBaseController {
         $or:
     }
     */
-    try {
-      const result = this.service.getAll(req.body.query, populateField);
-      res.status(200).send(result);
-    } catch (error: any) {
-      return res.status(error.status || 500).send(error.error.message);
-    }
+   console.log(req.query.tags);
+   return res.status(200)
+    // try {
+    //   const result = this.service.getAll(req.body.query, populateField);
+    //   res.status(200).send(result);
+    // } catch (error: any) {
+    //   return res.status(error.status || 500).send(error.error.message);
+    // }
   }
   getAllRegex(req: Request, res: Response, populateField: any = {}): any {
     try {
@@ -63,14 +81,16 @@ export class BaseController implements IBaseController {
       return res.status(error.status || 500).send(error.error.message);
     }
   }
-  disableEnable(req: Request, res: Response){
+  disableEnable(req: Request, res: Response) {
     try {
-      const element =  this.service.getById(req.params.id,{});      
-        const result = this.service.update(req.params.id, {state:!element.state});
-        return res.status(200).send(result);
-      } catch (error: any) {
-        return res.status(error.status || 500).send(error.error.message);
-      }
+      const element = this.service.getById(req.params.id, []);
+      const result = this.service.update(req.params.id, {
+        state: !element.state,
+      });
+      return res.status(200).send(result);
+    } catch (error: any) {
+      return res.status(error.status || 500).send(error.error.message);
+    }
   }
   remove(req: Request, res: Response): any {
     try {
